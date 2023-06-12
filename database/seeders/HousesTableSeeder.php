@@ -1,5 +1,5 @@
 <?php
-
+/*
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
@@ -18,4 +18,4 @@ class HousesTableSeeder extends Seeder
         }
         DB::table('houses')->insert($data);
     }
-}
+}*/

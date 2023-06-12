@@ -9,7 +9,7 @@ class HouseSeeder extends Seeder
 {
     public function run()
     {
-        $file = 'C:\Users\NEXONEON\Documents\prak\vite\app\houses.csv';
+        $file = __DIR__ . '/houses.csv';
         $csv = array_map('str_getcsv', file($file));
         $header = array_shift($csv);
 

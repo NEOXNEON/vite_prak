@@ -1,3 +1,33 @@
+## Совместимые версии
+PHP 8.1.20 (cli) (built: Jun  7 2023 08:21:52) (ZTS Visual C++ 2019 x64)
+Copyright (c) The PHP Group
+Zend Engine v4.1.20, Copyright (c) Zend Technologies
+
+LARAVEL v10.13.2  plugin v0.7.8
+
+"vue": "^3.2.36"
+
+VITE v4.3.9  
+
+Composer version 2.5.7 2023-05-24 15:00:39
+
+node --version v20.2.0
+
+npm --version 9.6.6
+
+## Для запуска проекта необходимо
+1 - Клонировать репозиторий 
+git clone http://github.com/NEOXNEON/vite_prak.git
+
+2 - Dыполнить команду composer install в корневой директории проекта, чтобы установить все зависимости.
+
+3 - Запустить веб-сервер разработки
+php artisan serve
+
+4 - Выполнить команду npm run dev чтобы просматривать веб-приложение
+
+Seeder - "HouseSeeder.php"
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
